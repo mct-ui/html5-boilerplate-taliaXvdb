@@ -58,6 +58,13 @@ html {
     ---
     Default markup for typographic elements
 */
+h1 {
+  font-size: 1.8020324707rem;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
 /*---------------------------------------/*
  # OBJECTS
 /*---------------------------------------*/
