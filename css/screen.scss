@@ -321,6 +321,21 @@ a:active {
 */
 
 .o-row {
+  padding: $space-m $space-m 0;
+  display: flow-root;
+
+  &--dark {
+    background-color: get-color(color-gray, 900);
+    color: white;
+  }
+
+  &--primary {
+    background-color: $color-primary-light;
+  }
+
+  &--lg {
+    padding: $space-l $space-l $space-m;
+  }
 }
 
 /*
@@ -330,6 +345,8 @@ a:active {
 */
 
 .o-container {
+  margin: 0 auto;
+  max-width: 50rem;
 }
 
 /*
