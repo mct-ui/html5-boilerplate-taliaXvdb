@@ -33,9 +33,26 @@ img {
     ---
     Default markup for page level elements
 */
+html {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
+  color: hsl(198.0786026201, 10%, 10%);
+  scroll-behavior: smooth;
+}
+
 /*
     Customize the background color and color to match your design.
 */
+::-moz-selection {
+  background: hsl(198.0786026201, 100%, 50%);
+  color: white;
+}
+::selection {
+  background: hsl(198.0786026201, 100%, 50%);
+  color: white;
+}
+
 /*
     Elements: typography
     ---
