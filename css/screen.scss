@@ -159,6 +159,7 @@ $breakpoints: (
 *:before,
 *:after {
   // Reset box-sizing
+  margin: 0;
 }
 
 * {
